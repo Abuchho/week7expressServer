@@ -1,11 +1,12 @@
 let xhr = new XMLHttpRequest();
 xhr.onload = function(){
-    let price = this.responseText;
+    let price = JSON.parse(this.responseText);
     console.log(price);
+    console.log(price.symbol)
 
     document.getElementById('content').innerHTML = 
-    `<span>Stock Symbol: ${price.symbol} 
-    Price: ${price.regularMarketPrice}</span>`
+    `<span>Stock Symbol: ${price.price.symbol} <br>
+    Price: ${price.price.regularMarketPrice}</span>`
 
 
 }

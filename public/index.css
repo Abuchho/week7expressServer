@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 4em;
+    font-size: 2em;
     border-radius: 18px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-shadow:5px 10px rgb(73, 73, 73);
