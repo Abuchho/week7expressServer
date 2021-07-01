@@ -1,0 +1,22 @@
+{
+  "name": "week7expressserver",
+  "version": "1.0.0",
+  "description": "Serve local files with Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abuchho/week7expressServer.git"
+  },
+  "author": "Andrew Buchholz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abuchho/week7expressServer/issues"
+  },
+  "homepage": "https://github.com/Abuchho/week7expressServer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
