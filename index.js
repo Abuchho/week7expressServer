@@ -11,14 +11,15 @@ var yahooFinance = require('yahoo-finance');
 // });
 
 
-//req.params
+//req.query is the info in the search bar with a ? and then var =
+//window.location.search 
 
 
 app.use(express.static('public'));
 
 app.get('/stockPrice', function(req, res) {
     yahooFinance.quote({
-        symbol: 'TSLA',
+        symbol: 'AAPL',
         modules: ['price']
     }, 
     function (err, quotes){
